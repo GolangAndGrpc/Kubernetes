@@ -1,0 +1,4 @@
+kubectl create -f <resourcename.yaml> -n <namespace>
+kubectl exec <podname> -n pruthviraj -- <command> [curl -s http://<clusterip>]
+kubectl proxy  //Start kubernetes dashboar
+kubectl -n kubernetes-dashboard create token <username>
